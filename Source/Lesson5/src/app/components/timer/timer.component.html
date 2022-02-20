@@ -1,0 +1,10 @@
+<h1 class="timer">{{(timeSet ? timer : demo )}}</h1>
+<form (submit)="submitTime()">
+  <input
+    type="text"
+    name="input"
+    placeholder="Enter date(mm/dd/yy)"
+    [(ngModel)]="date"
+    />
+    <input type="submit" value="Set Timer" >
+</form>
