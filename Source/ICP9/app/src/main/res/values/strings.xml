@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pizza App</string>
+    <string-array name="crustTypes">
+        <item>Stuff-Crust</item>
+        <item>Regular Crust</item>
+        <item>Thin Crust</item>
+    </string-array>
+    <string-array name="sauceTypes">
+        <item>Marinara Sauce</item>
+        <item>Alfredo Sauce</item>
+        <item>BBQ Sauce</item>
+        <item>Buffalo Sauce</item>
+        <item>No Sauce</item>
+    </string-array>
+</resources>
